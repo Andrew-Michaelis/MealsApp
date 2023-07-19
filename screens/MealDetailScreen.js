@@ -54,7 +54,7 @@ function MealDetailScreen({ route, navigation }) {
           <Subtitle>Ingredients</Subtitle>
           <List data={selectedMeal.ingredients}/>
           <Subtitle>Steps</Subtitle>
-          <List data={selectedMeal.steps} />
+          <List data={selectedMeal.steps}/>
         </View>
       </View>
     </ScrollView>

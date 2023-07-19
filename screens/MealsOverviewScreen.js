@@ -1,4 +1,3 @@
-import { FlatList, StyleSheet, Text, View } from 'react-native';
 import { useLayoutEffect } from 'react';
 
 import { MEALS, CATEGORIES } from '../data/dummy-data';

@@ -18,10 +18,10 @@ function DrawerNavigator() {
   return (
     <Drawer.Navigator 
       screenOptions={{
-        headerStyle: { backgroundColor: '#132f13' },
+        headerStyle: { backgroundColor: '#132f13' }, 
         headerTintColor: 'white',
         sceneContainerStyle: { backgroundColor: '#092409' },
-        drawerActiveBackgroundColor: '#BADA55',
+        drawerActiveBackgroundColor: '#bada55',
         drawerActiveTintColor: 'darkslategrey',
         drawerStyle: {backgroundColor: 'beige'},
       }}
@@ -56,7 +56,7 @@ function DrawerNavigator() {
 export default function App() {
   return (
     <>
-      <StatusBar style='light'/>
+      <StatusBar style='light' />
       <FavoritesContextProvider>
         <NavigationContainer>
           <Stack.Navigator 
